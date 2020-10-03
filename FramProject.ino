@@ -144,7 +144,7 @@ void dumpMemory(){
 }
 */
 
-
+/*
 // Uncomment function and printMemory() call to view memory in readable format
 void printMemory(){
     for(uint32_t a = 8; a < 8192; a+=4){
@@ -165,7 +165,7 @@ void printMemory(){
       Serial.println("*f");
   }
 }
-
+*/
 
 void loop() {
   // byte arrays for temperature and time
@@ -194,10 +194,10 @@ void loop() {
     fram_iterator = 8;
   }
 
-  
+  /*
   // uncomment this and printMemory() for readable memory dump
   printMemory();
-  
+  */
   
   delay(86400000);    // daily reading
 }
